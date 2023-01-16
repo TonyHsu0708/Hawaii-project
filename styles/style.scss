@@ -18,6 +18,9 @@ header {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 
   div.logo {
     display: flex;
@@ -37,7 +40,7 @@ header {
       justify-content: space-around;
       li {
         a {
-          color: #09777d;
+          color: #141616;
           text-decoration: none;
           font-size: 1.35rem;
         }
